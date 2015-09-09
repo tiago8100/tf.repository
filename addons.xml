@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.fightnight" name="fightnight repo" version="1.3" provider-name="fightnight">
+	<extension point="xbmc.addon.repository" name="fightnight">
+		<info compressed="false">http://fightnight-xbmc.googlecode.com/svn/addons/fightnight/addons.xml</info>
+		<checksum>http://fightnight-xbmc.googlecode.com/svn/addons/fightnight/addons.xml.md5</checksum>
+		<datadir zip="true">http://fightnight-xbmc.googlecode.com/svn/addons/fightnight/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Os meus addons para o XBMC</summary>
+		<description>Os meus addons para o XBMC</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="tf.repository" name="TF repository" version="0.0.1" provider-name="Tiago Ferreira">
+	<extension point="xbmc.addon.repository" name="TF Add-on Repository">
+		<info compressed="false">http://raw.github.com/tiago8100/tf.repository/master/addons.xml</info>
+		<checksum>http://raw.github.com/tiago8100/tf.repository/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/tiago8100/tf.repository/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>TF Addon</summary>
+		<description>Addon Description</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
